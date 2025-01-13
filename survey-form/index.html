@@ -7,6 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Survey Form</h1>
+    <p>Thank you for taking the time to help us improve ...</p>
+    <form action="POST">
+        <fieldset>
+            <label for="name">Name (optional)
+                <input id="name" name="name" type="text" placeholder="Enter your name">
+            </label>
+
+            <label for="email">Email
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            </label>
+
+            <label for="age">Age (optional)
+                <input id="age" type="number" name="age" placeholder="age">
+            </label>
+
+            <label for="role">Which option describes your current role?
+                <select name="role" id="role">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Intern</option>
+                    <option value="3">Full Time Job</option>
+                    <option value="4">Self-employed</option>
+                    <option value="5">Unemployed</option>
+                    <option value="6">Prefer not to say</option>
+                    <option value="7">Other</option>
+                </select>
+            </label>
+
+            <label for="learning-preference">
+                <input type="radio" id="self-paced" name="self-paced">Self-Paced
+                <input type="radio" id="instructor-led" name="instructor-led">Instructor Led
+            </label>
+
+            <label for="learning-goals">
+                <input type="checkbox" id="career-development" name="learning-goals">
+                <input type="checkbox" id="skill-enhancement" name="learning-goals">
+                <input type="checkbox" id="personal-interest" name="learning-goals">
+                <input type="checkbox" id="certification" name="learning-goals">
+                <input type="checkbox" id="other-goals" name="learning-goals">
+            </label>
+
+            <label for="learning-platform-used">
+                <input type="checkbox" id="coursera" name="learning-platform-used">
+                <input type="checkbox" id="udemy" name="learning-platform-used">
+                <input type="checkbox" id="linkedin-learning" name="learning-platform-used">
+                <input type="checkbox" id="freecodecamp" name="learning-platform-used">
+                <input type="checkbox" id="dicoding" name="learning-platform-used">
+                <input type="checkbox" id="other-platform" name="learning-platform-used">
+            </label>
+
+            <label for="satisfaction-with-platform">
+                <input type="radio" id="self-paced" name="self-paced">Self-Paced
+                <input type="radio" id="instructor-led" name="instructor-led">Instructor Led
+            </label>
+        </fieldset>
+    </form>
 </body>
 </html>
