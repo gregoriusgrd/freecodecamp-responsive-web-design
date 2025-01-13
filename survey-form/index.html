@@ -12,7 +12,7 @@
     <form id="survey-form" action="POST">
         <fieldset>
             <legend>Personal Information</legend>
-            <label id="name-label" for="name">Name (optional)
+            <label id="name-label" for="name">Name
                 <input id="name" name="name" type="text" placeholder="Enter your name" value="Gregorius Geraldin" required>
             </label>
 
@@ -27,7 +27,7 @@
 
         <fieldset>
             <legend>Which option describes your current role?</legend>
-                <select id="dropdown" name="role">
+                <select id="dropdown" name="role" required>
                     <option value="" disabled selected>Select an option</option>
                     <option value="1">Student</option>
                     <option value="2">Intern</option>
@@ -42,10 +42,10 @@
         <fieldset>
             <legend>What type of online course do you prefer?</legend>
             <label for="self-paced"> 
-                <input type="radio" id="self-paced" name="learning-preference" value="self-paced">Self-Paced
+                <input type="radio" id="self-paced" name="learning-preference" class="inline" value="self-paced">Self-Paced
             </label>
             <label for="instructor-led">
-                <input type="radio" id="instructor-led" name="learning-preference" value="instructor-led">Instructor-Led
+                <input type="radio" id="instructor-led" name="learning-preference" class="inline"  value="instructor-led">Instructor-Led
             </label>
         </fieldset>
 
@@ -144,6 +144,13 @@
             </label>
             <label for="discussion-forum">
                 <input type="checkbox" id="discussion-forum" name="desired-features"> Discussion forums or community interaction
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Any additional comments or suggestions?</legend>
+            <label for="comments">
+                <textarea name="comments" id="comments" placeholder="..."></textarea>
             </label>
         </fieldset>
     </form>
