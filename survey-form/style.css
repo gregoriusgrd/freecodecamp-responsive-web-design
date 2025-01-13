@@ -20,8 +20,8 @@ h1, p {
 
 form {
     margin: auto;
-    max-width: 800px;
-    min-width: 400px;
+    max-width: 600px;
+    min-width: 300px;
     width: 60vw;
     padding-bottom: 2em;
 }
@@ -29,7 +29,6 @@ form {
 fieldset {
     border: 0;
     padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
 }
 
 fieldset:last-of-type {
@@ -39,6 +38,8 @@ fieldset:last-of-type {
 input, textarea, select {
     width: 100%;
     margin: 10px 0 0 0;
+    padding: 10px;
+    border-radius: 10px;
     min-height: 1em;
 }
 
@@ -48,3 +49,23 @@ input, textarea, select {
     vertical-align: middle;
 }
 
+input, textarea {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #D3D3D3;
+}
+
+input {
+    color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.dropdown-button {
+    color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
