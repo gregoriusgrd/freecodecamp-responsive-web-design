@@ -2,7 +2,10 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
+    background-image: url('https://wallpapers.com/images/hd/aesthetic-pixel-art-hd-3ya1crge00esy0ak.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: #f5f6f7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
@@ -13,17 +16,18 @@ label {
     margin: 0.5rem 0;
 }
 
-h1, p {
-    margin: 1em auto;
+#nav-container {
+    margin: 2em auto 2em auto;
     text-align: center;
 }
 
 form {
-    margin: auto;
+    margin: 0 auto;
     max-width: 600px;
     min-width: 300px;
     width: 60vw;
     padding-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.7);;
 }
 
 fieldset {
@@ -36,11 +40,15 @@ fieldset:last-of-type {
 }
 
 input, textarea, select {
-    width: 100%;
+    width: 90%;
     margin: 10px 0 0 0;
     padding: 10px;
     border-radius: 10px;
     min-height: 1em;
+}
+
+select {
+    width: 94%;
 }
 
 .inline {
