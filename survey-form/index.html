@@ -31,13 +31,13 @@
             <legend>Which option describes your current role?</legend>
                 <select class="dropdown-button" id="dropdown" name="role" required>
                     <option class="dropdown-button" value="" disabled selected>Select an option</option>
-                    <option class="dropdown-button" value="1">Student</option>
-                    <option class="dropdown-button" value="2">Intern</option>
-                    <option class="dropdown-button" value="3">Full Time Job</option>
-                    <option class="dropdown-button" value="4">Self-employed</option>
-                    <option class="dropdown-button" value="5">Unemployed</option>
-                    <option class="dropdown-button" value="6">Prefer not to say</option>
-                    <option class="dropdown-button" value="7">Other</option>
+                    <option class="dropdown-button" value="student">Student</option>
+                    <option class="dropdown-button" value="intern">Intern</option>
+                    <option class="dropdown-button" value="full-time-job">Full Time Job</option>
+                    <option class="dropdown-button" value="self-employed">Self-employed</option>
+                    <option class="dropdown-button" value="unemployed">Unemployed</option>
+                    <option class="dropdown-button" value="prefer-not-to-say">Prefer not to say</option>
+                    <option class="dropdown-button" value="other-role">Other</option>
                 </select>
         </fieldset>
 
@@ -54,98 +54,98 @@
         <fieldset>
             <legend>What is your main goal for taking online courses?</legend>
             <label for="career-development"> 
-                <input type="checkbox" id="career-development" name="learning-goals" class="inline" > Career development (To advance or switch careers)
+                <input type="checkbox" id="career-development" name="learning-goals" class="inline" value="career-development"> Career development (To advance or switch careers)
             </label>
             <label for="skill-enhancement">
-                <input type="checkbox" id="skill-enhancement" name="learning-goals" class="inline" > Skill enhancement (To improve specific skills)
+                <input type="checkbox" id="skill-enhancement" name="learning-goals" class="inline"  value="skill-enhancement"> Skill enhancement (To improve specific skills)
             </label>
             <label for="personal-interest">
-                <input type="checkbox" id="personal-interest" name="learning-goals" class="inline" > Personal interest (To learn for personal growth or interest)
+                <input type="checkbox" id="personal-interest" name="learning-goals" class="inline" value="personal-interest"> Personal interest (To learn for personal growth or interest)
             </label>
             <label for="certification">
-                <input type="checkbox" id="certification" name="learning-goals" class="inline" > Certification (To earn a certificate for your learning)
+                <input type="checkbox" id="certification" name="learning-goals" class="inline" value="certification"> Certification (To earn a certificate for your learning)
             </label>
             <label for="other-goals">
-                <input type="checkbox" id="other-goals" name="learning-goals" class="inline" > Other
+                <input type="checkbox" id="other-goals" name="learning-goals" class="inline" value="other-goals"> Other
             </label>
         </fieldset>
 
         <fieldset>
             <legend> Which type of online learning platform have you used? </legend>
             <label for="coursera">
-                <input type="checkbox" id="coursera" name="learning-platform-used" class="inline" > Coursera
+                <input type="checkbox" id="coursera" name="learning-platform-used" class="inline" value="coursera"> Coursera
             </label>
             <label for="udemy">
-                <input type="checkbox" id="udemy" name="learning-platform-used" class="inline" > Udemy
+                <input type="checkbox" id="udemy" name="learning-platform-used" class="inline" value="udemy"> Udemy
             </label>
             <label for="linkedin-learning">
-                <input type="checkbox" id="linkedin-learning" name="learning-platform-used" class="inline" > freeCodeCamp
+                <input type="checkbox" id="linkedin-learning" name="learning-platform-used" class="inline" value="linkedin-learning"> freeCodeCamp
             </label>
             <label for="freecodecamp">
-                <input type="checkbox" id="freecodecamp" name="learning-platform-used" class="inline" > LinkedIn Learning
+                <input type="checkbox" id="freecodecamp" name="learning-platform-used" class="inline" value="freecodecamp"> LinkedIn Learning
             </label>
             <label for="dicoding">
-                <input type="checkbox" id="dicoding" name="learning-platform-used" class="inline" > DiCoding
+                <input type="checkbox" id="dicoding" name="learning-platform-used" class="inline" value="dicoding"> DiCoding
             </label>
             <label for="other-platform">
-                <input type="checkbox" id="other-platform" name="learning-platform-used" class="inline" > Other
+                <input type="checkbox" id="other-platform" name="learning-platform-used" class="inline" value="other-platform"> Other
             </label>
         </fieldset>
 
         <fieldset>
             <legend>How satisfied are you with your current online learning platform?</legend>
             <label for="very-satisfied"> 
-                <input type="radio" id="very-satisfied" name="satisfaction-with-platform" class="inline" > Very Satisfied
+                <input type="radio" id="very-satisfied" name="satisfaction-with-platform" class="inline" value="very-satisfied"> Very Satisfied
             </label>
             <label for="satisfied"> 
-                <input type="radio" id="satisfied" name="satisfaction-with-platform" class="inline" > Satisfied
+                <input type="radio" id="satisfied" name="satisfaction-with-platform" class="inline" value="satisfied"> Satisfied
             </label>
             <label for="neutral">
-                <input type="radio" id="neutral" name="satisfaction-with-platform" class="inline" > Neutral
+                <input type="radio" id="neutral" name="satisfaction-with-platform" class="inline" value="neutral"> Neutral
             </label>
             <label for="unsatisfied">
-                <input type="radio" id="unsatisfied" name="satisfaction-with-platform" class="inline" > Unsatisfied
+                <input type="radio" id="unsatisfied" name="satisfaction-with-platform" class="inline" value="unsatisfied"> Unsatisfied
             </label>
             <label for="very-unsatisfied">
-                <input type="radio" id="very-unsatisfied" name="satisfaction-with-platform" class="inline" > Very Unsatisfied
+                <input type="radio" id="very-unsatisfied" name="satisfaction-with-platform" class="inline" value="very-unsatisfied"> Very Unsatisfied
             </label>                      
         </fieldset>
         
         <fieldset>
             <legend>How do you usually access online learning materials?</legend>
             <label for="laptop-or-pc"> 
-                <input type="checkbox" id="laptop-or-pc" name="accessing-learning-materials" class="inline" > Laptop or PC
+                <input type="checkbox" id="laptop-or-pc" name="accessing-learning-materials" class="inline" value="laptop-or-pc"> Laptop or PC
             </label>
             <label for="smartphone"> 
-                <input type="checkbox" id="smartphone" name="accessing-learning-materials" class="inline" > Smartphone
+                <input type="checkbox" id="smartphone" name="accessing-learning-materials" class="inline" value="smartphone"> Smartphone
             </label>
             <label for="tablet"> 
-                <input type="checkbox" id="tablet" name="accessing-learning-materials" class="inline" > Tablet
+                <input type="checkbox" id="tablet" name="accessing-learning-materials" class="inline" value="tablet"> Tablet
             </label>
             <label for="other-access"> 
-                <input type="checkbox" id="other-access" name="accessing-learning-materials" class="inline" > Other
+                <input type="checkbox" id="other-access" name="accessing-learning-materials" class="inline" value="other-access"> Other
             </label>
         </fieldset>
 
         <fieldset>
             <legend>What would you like to see more in online learning platform?</legend>
             <label for="interactive-quizzes">
-                <input type="checkbox" id="interactive-quizzes" name="desired-features" class="inline" > Interactive quizzes and assessments
+                <input type="checkbox" id="interactive-quizzes" name="desired-features" class="inline" value="interactive-quizzes"> Interactive quizzes and assessments
             </label>
             <label for="video-learning">
-                <input type="checkbox" id="video-learning" name="desired-features" class="inline" > Video learning content
+                <input type="checkbox" id="video-learning" name="desired-features" class="inline" value="video-learning"> Video learning content
             </label>
             <label for="gamification">
-                <input type="checkbox" id="gamification" name="desired-features" class="inline" > Gamification (e.g., badges, points)
+                <input type="checkbox" id="gamification" name="desired-features" class="inline" value="gamification"> Gamification (e.g., badges, points)
             </label>
             <label for="live-webinar">
-                <input type="checkbox" id="live-webinar" name="desired-features" class="inline" > Live webinars or virtual classrooms
+                <input type="checkbox" id="live-webinar" name="desired-features" class="inline" value="live-webinar"> Live webinars or virtual classrooms
             </label>
             <label for="downloadable-resources">
-                <input type="checkbox" id="downloadable-resources" name="desired-features" class="inline" > Downloadable resources (e.g., PDFs, slides)
+                <input type="checkbox" id="downloadable-resources" name="desired-features" class="inline" value="downloadable-resources"> Downloadable resources (e.g., PDFs, slides)
             </label>
             <label for="discussion-forum">
-                <input type="checkbox" id="discussion-forum" name="desired-features" class="inline" > Discussion forums or community interaction
+                <input type="checkbox" id="discussion-forum" name="desired-features" class="inline" value="discussion-forum"> Discussion forums or community interaction
             </label>
         </fieldset>
 
@@ -156,7 +156,7 @@
             </label>
         </fieldset>
 
-        <input type="submit" name="submit" value="Submit">
+        <input id="submit" type="submit" name="submit" value="Submit">
     </form>
 </body>
 </html>
