@@ -1,11 +1,7 @@
 body {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
-    /* background-image: url('https://i.pinimg.com/originals/a7/87/a8/a787a84b5545546b369527bdbefa95a3.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed; */
     background-color: #1A1A2E;
     color: #f5f6f7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,7 +31,7 @@ form {
 
 fieldset {
     border: 0;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 fieldset:last-of-type {
@@ -48,6 +44,8 @@ input, textarea, select {
     padding: 10px;
     border-radius: 10px;
     min-height: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 select {
@@ -60,13 +58,9 @@ select {
     vertical-align: middle;
 }
 
-input, textarea {
-    background-color: #ffffff;
-    color: #ffffff;
-}
-
 textarea {
     height: 10vh;
+    margin-top: -5px;
 }
 
 input::placeholder {
@@ -95,4 +89,8 @@ input[type="submit"] {
     background-color: #008170;
     color: white;
     border-color: white;
+}
+
+.personal-information {
+    margin-bottom: 1em;
 }
