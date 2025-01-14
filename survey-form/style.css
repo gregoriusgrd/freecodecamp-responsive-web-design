@@ -27,7 +27,8 @@ form {
     max-width: 700px;
     min-width: 300px;
     width: 70vw;
-    padding: 2em;
+    padding-left: 2em;
+    padding: 2em 0 2em 2em;
     background-color: #2D3250;
     border-radius: 10px;
 }
@@ -64,6 +65,10 @@ input, textarea {
     color: #ffffff;
 }
 
+textarea {
+    height: 10vh;
+}
+
 input::placeholder {
     color: #D3D3D3;
 }
@@ -78,4 +83,16 @@ input {
     color: #555555;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+}
+
+input[type="submit"] {
+    display: block;
+    min-width: 300px;
+    width: 60%;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 1.1rem;
+    background-color: #008170;
+    color: white;
+    border-color: white;
 }

@@ -15,15 +15,15 @@
         <fieldset>
             <legend>Personal Information</legend>
             <label id="name-label" for="name">Name
-                <input id="name" name="name" type="text" placeholder="Enter your name" value="Gregorius Geraldin" required>
+                <input id="name" name="name" type="text" placeholder="Enter your name" value="Gregorius Geraldin" class="personal-information" required>
             </label>
 
             <label id="email-label" for="email">Email
-                <input id="email" type="email" name="email" placeholder="Enter your email" value="gregorius.gerald@gmail.com" required>
+                <input id="email" type="email" name="email" placeholder="Enter your email" value="gregorius.gerald@gmail.com" class="personal-information" required>
             </label>
 
             <label id="number-label" for="number">Age (optional)
-                <input id="number" type="number" name="number" placeholder="Enter your age" min="10" max="100" value="24">
+                <input id="number" type="number" name="number" placeholder="Enter your age" min="10" max="100" value="24" class="personal-information">
             </label>
         </fieldset>
 
@@ -155,6 +155,8 @@
                 <textarea name="comments" id="comments" placeholder="..."></textarea>
             </label>
         </fieldset>
+
+        <input type="submit" name="submit" value="Submit">
     </form>
 </body>
 </html>
