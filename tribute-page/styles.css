@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #B4B4B8;
+    background-color: white;
     color: #33333F;
     font-family: "Roboto", sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 header {
     margin-top: 1.25rem;
     text-align: center;
-    background-color: #EEEEEE;
+    background-color: white;
     padding: 1.25rem 0 6px 0;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 #image {
-    width: 60%;
+    width: 70%;
     min-width: 350px;
     min-height: 300px;
     object-fit: cover;
@@ -37,7 +37,7 @@ h1 {
 }
 
 .tribute-info {
-    width: 40%;
+    width: 50%;
     background-color: white;
     margin: 20px auto;
     padding: 20px;
@@ -45,6 +45,7 @@ h1 {
 
 .tribute-info > h3 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -55,6 +56,18 @@ li {
     margin-bottom: 15px;
 }
 
+blockquote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .bold {
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
 }
