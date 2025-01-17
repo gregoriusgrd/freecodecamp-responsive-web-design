@@ -345,7 +345,75 @@
                 </ol>
             </article>
         </section>
-        <section class="main-section"></section>
+        <section class="main-section">
+            <header>Arrays</header>
+            <p>An array is a collection of values stored in a single variable. It is used to group related data together.</p>
+            <ol>
+                <li>
+                    <p>Creating an Array:</p>
+                    <ul>
+                        <li>Use square brackets []</li>
+                        <li>Example:</li>
+                        <code>
+                            let fruits = ["apple", "banana", "cherry"];
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Accessing Elements:</p>
+                    <ul>
+                        <li>Array elements are accessed using their index, starting from 0.</li>
+                        <li>Example:</li>
+                        <code>
+                            console.log(fruits[0]); // Outputs: apple
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Modifying Elements:</p>
+                    <ul>
+                        <li>Change values by assigning a new value to an index.</li>
+                        <li>Example:</li>
+                        <code>
+                            fruits[1] = "blueberry"; // Now: ["apple", "blueberry", "cherry"]
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Array Properties and Methods:</p>
+                    <ul>
+                        <li>length: Returns the number of elements in the array.</li>
+                        <code>
+                            console.log(fruits.length); // Outputs: 3
+                        </code>
+                        <li>push(): Adds an element to the end of the array.</li>
+                        <code>
+                            fruits.push("date"); // Now: ["apple", "blueberry", "cherry", "date"]
+                        </code>
+                        <li>pop(): Removes the last element.</li>
+                        <code>
+                            fruits.pop(); // Now: ["apple", "blueberry", "cherry"]
+                        </code>
+                        <li>indexOf(): Finds the index of an element.</li>
+                        <code>
+                            console.log(fruits.indexOf("cherry")); // Outputs: 2
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Iterating Through Arrays:</p>
+                    <ul>
+                        <li>Use loops to process each element.</li>
+                        <li>Example:</li>
+                        <code>
+                            for (let i = 0; i < fruits.length; i++) {
+                                console.log(fruits[i]);
+                            }                            
+                        </code>
+                    </ul>
+                </li>
+            </ol>
+        </section>
         <section class="main-section"></section>
     </main>
 </body>
