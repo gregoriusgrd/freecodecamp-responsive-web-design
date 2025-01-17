@@ -85,8 +85,50 @@
                 </p>
             </article>
         </section>
-        <section class="main-section"></section>
-        <section class="main-section"></section>
+        <section class="main-section">
+            <header>Declaring Variables</header>
+            <article>
+                <p>You can declare a variable in two ways:</p>
+                <ul>
+                    <li>
+                        <span class="bold">Using var:</span>
+                        <p>Variables declared with var can be either <em>local</em> or <em>global</em>, depending on the context of their declaration. For example:</p>
+                        <pre><code>var x = 42;</code></pre>
+                    </li>
+                    <li>
+                        <span class="bold">Using let or const:</span>
+                        <p>Variables declared with let or const are <em>block-scoped</em>, meaning they are only accessible within the block they are declared in. For example:</p>
+                        <pre><code>let y = 13;</code></pre>
+                        <ul>
+                            <li>Use let for variables that will change later.</li>
+                            <li>Use const for variables that should remain constant.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section">
+            <header>Data types</header>
+            <article>
+                <p>The latest ECMAScript standard defines seven data types:</p>
+                <ul>
+                    <li>
+                        <p>Six Data types that are primitives:</p>
+                        <ul>
+                            <li>Boolean. true and false.</li>
+                            <li>null. A special keyword denoting a null value. (Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.)</li>
+                            <li>undefined. A top-level property whose value is not defined.</li>
+                            <li>Number. An integer or floating point number. For example: 42 or 3.14159.</li>
+                            <li>BigInt. An integer with arbitrary precision. For example: 9007199254740992n.</li>
+                            <li>String. A sequence of characters that represent a text value. For example: "Hello".</li>
+                            <li>Symbol. A data type whose instances are unique and immutable.</li>
+                        </ul>
+                    </li>
+
+                    <li>and Object</li>
+                </ul>
+            </article>
+        </section>
     </main>
 </body>
 </html>
