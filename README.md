@@ -1,1 +1,1 @@
-# freecodecamp-responsive-web-design
+# responsive-web-design
