@@ -414,7 +414,86 @@
                 </li>
             </ol>
         </section>
-        <section class="main-section"></section>
+        <section class="main-section">
+            <header>Objects</header>
+            <p>Objects are collections of key-value pairs that represent real-world entities or structures in your code.</p>
+            <ol>
+                <li>
+                    <p>Creating an Object:</p>
+                    <ul>
+                        <li>Use curly braces {} with key-value pairs.</li>
+                        <li>Example:</li>
+                        <code>
+                            let person = {
+                                name: "Alice",
+                                age: 25,
+                                city: "New York"
+                            };                            
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Accessing Properties:</p>
+                    <ul>
+                        <li>Use dot notation or bracket notation.</li>
+                        <li>Example:</li>
+                        <code>
+                            console.log(person.name); // Outputs: Alice
+                            console.log(person["age"]); // Outputs: 25
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Adding or Updating Properties:</p>
+                    <ul>
+                        <li>Assign a value to a new or existing key.</li>
+                        <li>Example:</li>
+                        <code>
+                            person.job = "Developer"; // Adds a new property
+                            person.city = "Boston"; // Updates the city property
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Deleting Properties:</p>
+                    <ul>
+                        <li>Use the delete keyword.</li>
+                        <li>Example:</li>
+                        <code>
+                            delete person.age; // Removes the age property
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Object Methods:</p>
+                    <ul>
+                        <li>Objects can contain functions as methods.</li>
+                        <li>Example:</li>
+                        <code>
+                            let car = {
+                                brand: "Toyota",
+                                start: function() {
+                                    console.log("The car has started.");
+                                }
+                            };
+                            car.start(); // Outputs: The car has started.                            
+                        </code>
+                    </ul>
+                </li>
+                <li>
+                    <p>Iterating Through an Object:</p>
+                    <ul>
+                        <li>Use a for...in loop.</li>
+                        <li>Example:</li>
+                        <code>
+                            for (let key in person) {
+                                console.log(key + ": " + person[key]);
+                            }                            
+                        </code>
+                    </ul>
+                </li>
+            </ol>
+        </section>
     </main>
 </body>
 </html>
