@@ -6,7 +6,7 @@ html, body {
     min-width: 290px;
     margin: 0;
     color: black;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.8;
     /* background-color: royalblue; */
 }
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    margin: 20px;
+    margin: 10px 20px;
     color: black;
     text-align: center;
     font-size: 2em;
@@ -81,5 +81,17 @@ section p {
 
 .bold {
     font-weight: bold;
+}
+
+code {
+    position: relative;
+    display: block;
+    text-align: left;
+    word-wrap: normal;
+    word-break: normal;
+    white-space-collapse: preserve-breaks;
+    line-height: 2;
+    padding: 5px;
+    margin: 5px;
 }
 
