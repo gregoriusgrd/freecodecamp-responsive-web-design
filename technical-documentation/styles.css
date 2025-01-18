@@ -8,7 +8,7 @@ html, body {
     color: black;
     font-family: "Roboto", sans-serif;
     line-height: 1.8;
-    /* background-color: royalblue; */
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +21,6 @@ header {
     color: black;
     text-align: center;
     font-size: 2em;
-    /* background-color: orange; */
 }
 
 #navbar {
@@ -31,7 +30,6 @@ header {
     min-width: 290px;
     height: 100%;
     border-right: 2px solid #aaaaaa;
-    /* background-color: blue; */
 }
 
 #navbar ul {
@@ -44,7 +42,6 @@ header {
     width: 100%;
     color: black;
     border-top: 1px solid #aaaaaa;
-    /* background-color: #4d4e53; */
 }
 
 #navbar a {
@@ -59,7 +56,6 @@ header {
     width: 70%;
     margin-left: 300px;
     padding: 20px;
-    /* background-color: blueviolet; */
 }
 
 section header {
@@ -68,7 +64,7 @@ section header {
 }
 
 section article {
-    color: #4d4e53; /* change color later */
+    color: #4d4e53;
 }
 
 section li {
@@ -94,4 +90,6 @@ code {
     padding: 5px;
     margin: 5px;
 }
+
+
 
