@@ -11,11 +11,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-body {
-    display: flex;
-    padding: 20px;
-}
-
 header {
     margin: 10px 20px;
     color: black;
@@ -27,20 +22,20 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 290px;
+    width: 260px;
     height: 100%;
+    background-color: #f9f9f9;
     border-right: 2px solid #aaaaaa;
+    overflow-y: auto;
 }
 
 #navbar ul {
     padding: 0;
+    margin: 0;
     height: 80%;
 }
 
 #navbar li {
-    position: relative;
-    width: 100%;
-    color: black;
     border-top: 1px solid #aaaaaa;
 }
 
@@ -52,15 +47,14 @@ header {
 }
 
 #main-doc {
-    position: absolute;
-    width: 70%;
-    margin-left: 300px;
+    width: calc(100% - 270px);
+    margin-left: 270px;
     padding: 20px;
 }
 
 section header {
     text-align: left;
-    margin: 0;
+    margin: 0px;
 }
 
 section article {
@@ -69,14 +63,6 @@ section article {
 
 section li {
     margin: 10px;
-}
-
-section p {
-
-}
-
-.bold {
-    font-weight: bold;
 }
 
 code {
@@ -89,7 +75,66 @@ code {
     line-height: 2;
     padding: 5px;
     margin: 5px;
+    font-family: "Courier New", monospace;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
+.bold {
+    font-weight: bold;
+}
 
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 200px; /* Reduce navbar width */
+    }
+    
+    #main-doc {
+        margin-left: 210px; /* Adjust margin to match navbar width */
+        width: calc(100% - 210px); /* Dynamically adjusts width */
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+
+    section header {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #navbar {
+        width: 150px; /* Reduce navbar width */
+    }
+
+    #main-doc {
+        margin-left: 160px; /* Adjust margin to match navbar width */
+        width: calc(100% - 160px); /* Dynamically adjusts width */
+    }
+
+    header {
+        font-size: 1em; /* Smaller font */
+    }
+
+    #navbar a {
+        font-size: 0.8em;
+    }
+
+    section header {
+        font-size: 1em;
+    }
+
+    section p {
+        font-size: 0.7em;
+    }
+
+    section li {
+        font-size: 0.7em
+    }
+
+    code {
+        font-size: 0.7em;
+    }
+}
 
