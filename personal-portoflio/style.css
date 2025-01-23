@@ -84,7 +84,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 14vh;
+    height: 10vh;
     background-color: var(--main-red);
 }
 
@@ -110,16 +110,60 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    line-height: 0.5;
     width: 100%;
     height: 100vh;
     background-color: #fff0de;
 }
 
-h1 {
-    font-size: 6rem;
+.welcome-section p {
+    font-size: 3rem;
+    font-weight: 200;
 }
 
-h1, h2 {
-    font-weight: 700;
+/* PROJECTS SECTION */
+.projects-section {
     text-align: center;
+    padding: 10rem 2rem;
+}
+
+.projects-section-header {
+    max-width: 800px;
+    margin: 0 auto 6rem auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project {
+    background: var(--main-red);
+    border-radius: 1rem;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: var(--main-cream);
+}
+
+.project-title:hover {
+    color: #09122C;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #09122C;
 }
