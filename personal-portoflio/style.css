@@ -30,7 +30,6 @@ body {
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    /* color: var(--main-white); */
 }
   
 h1, h2 {
@@ -64,6 +63,8 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: #09122C;
+    transition: transform 0.3s ease-out;
+    transform: translateY(3px);
 }
 
 p {
@@ -224,4 +225,15 @@ nav {
 .contact-details span {
     display: flex;
     align-items: center;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.8rem;
 }
