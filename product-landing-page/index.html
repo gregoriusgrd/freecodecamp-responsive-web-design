@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="page-wrapper">
+    <div id="page-container">
         <header id="header">
             <div class="logo">
                 <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Martin_guitar_logo.png" alt="">
@@ -15,20 +15,11 @@
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#demo">Demo</a></li>
                     <li><a class="nav-link" href="#pricing">Pricing</a></li>
                 </ul>
             </nav>
         </header>
-
-        <section id="hero">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <label for="email"></label>
-                <input name="email" id="email" type="email" placeholder="Enter your email address" required>
-                <input id="submit" class="btn" type="submit" value="Get Started">
-            </form>
-        </section>
 
         <div class="container">
             <section id="features">
@@ -41,7 +32,8 @@
                     <div class="desc">
                         <h2>Premium Materials</h2>
                         <p>
-                            Every product is crafted using top-grade materials, ensuring durability, excellent performance, and a refined finish. We prioritize quality to provide an exceptional experience.
+                            Every product is crafted using top-grade materials, ensuring durability, excellent performance,
+                             and a refined finish. We prioritize quality to provide an exceptional experience.
                         </p>
                     </div>
                 </div>
@@ -53,9 +45,11 @@
                         </i>
                     </div>
                     <div class="desc">
-                        <h2>Fast Shipping</h2>
+                        <h2>Reliable Shipping</h2>
                         <p>
-                            Our efficient shipping process ensures your order reaches you quickly and securely. Whether near or far, we aim to deliver on time so you can enjoy your purchase without delay.
+                            Our well-organized shipping system ensures your order is delivered promptly and securely. 
+                            No matter the destination, we focus on timely delivery so you can enjoy your purchase as 
+                            soon as possible.
                         </p>
                     </div>
                 </div>
@@ -66,55 +60,56 @@
                         </i>
                     </div>
                     <div class="desc">
-                        <h2>Quality Assurance</h2>
+                        <h2>Quality Standards</h2>
                         <p>
-                            We uphold strict quality standards by inspecting each product thoroughly. This ensures you receive items that are reliable, long-lasting, and meet your expectations.
+                            We maintain high standards by carefully inspecting each product. 
+                            This guarantees that you receive reliable, long-lasting items that meet 
+                            and exceed your expectations.
                         </p>
                     </div>
                 </div>
             </section>
-            <section id="how-it-works">
-                <iframe id="video" height="315" src="https://www.youtube.com/embed/kR_RDPSFdQE" frameborder="0" allowfullscreen></iframe>
-            </section>
 
+            <section id="demo">
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/kR_RDPSFdQE" allowfullscreen></iframe>
+            </section>
             
             <section id="pricing">
-                <div class="product" id="tenor">
+                <div class="product">
                     <div class="level">Martin 000-15M StreetMaster</div>
                     <h2>$1,499.00</h2>
                     <p class="product-description">A timeless classic with a solid spruce top and mahogany back and sides, delivering warm, balanced tones for versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
 
-                <div class="product" id="bass">
+                <div class="product">
                     <div class="level">Martin D-18 Acoustic Guitar</div>
                     <h2>$2,499.00</h2>
                     <p class="product-description">A timeless classic with a solid spruce top and mahogany back and sides, delivering warm, balanced tones for versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
 
-                <div class="product" id="valve">
+                <div class="product">
                     <div class="level">Martin OM-28 Modern Deluxe</div>
                     <h2>$3,799.00</h2>
                     <p class="product-description">A high-quality guitar with a spruce top, rosewood back, and great sound. Ideal for fingerstyle and light strumming versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
             </section>
-            <footer>
-                <ul>
-                    <li>
-                        <a href="#">Privacy</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-                <span>Copyright, Martin & Co</span>
-            </footer>
+
+            
+            <section id="hero">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email"></label>
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+                    <input id="submit" class="btn" type="submit" value="Get Started">
+                </form>
+            </section>
         </div>
+
+        <footer>
+            <span>Copyright, Martin & Co</span>
+        </footer>
     </div>
 </body>
 </html>
