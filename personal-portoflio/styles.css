@@ -237,18 +237,6 @@ footer p {
         padding: 0 1rem;
     }
 
-    .nav-links {
-        margin: 0 1rem;
-    }
-
-    .projects-section-header {
-        font-size: 4rem;
-    }
-
-    .projects-section {
-        padding: 6rem 1rem;
-    }
-
     .projects-grid {
         grid-template-columns: 1fr;
     }
