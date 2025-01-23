@@ -10,7 +10,7 @@
     <div id="page-wrapper">
         <header id="header">
             <div class="logo">
-                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
+                <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Martin_guitar_logo.png" alt="">
             </div>
             <nav id="nav-bar">
                 <ul>
@@ -23,11 +23,11 @@
 
         <section id="hero">
             <h2>Handcrafted, home-made masterpieces</h2>
-            <form action="">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email"></label>
                 <input name="email" id="email" type="email" placeholder="Enter your email address" required>
-                <input class="btn" type="submit" value="Get Started">
-            </form> <!-- later -->
+                <input id="submit" class="btn" type="submit" value="Get Started">
+            </form>
         </section>
 
         <div class="container">
@@ -35,7 +35,7 @@
                 <div class="grid">
                     <div class="icon">
                         <i>
-                            <!-- check later -->
+                            <img class="icon-img" src="https://cdn-icons-png.flaticon.com/256/70/70535.png" alt="">
                         </i>
                     </div>
                     <div class="desc">
@@ -49,7 +49,7 @@
                 <div class="grid">
                     <div class="icon">
                         <i>
-                            <!-- check later -->
+                            <img class="icon-img" src="https://cdn-icons-png.flaticon.com/512/4212/4212257.png" alt="">
                         </i>
                     </div>
                     <div class="desc">
@@ -62,7 +62,7 @@
                 <div class="grid">
                     <div class="icon">
                         <i>
-                            <!-- check later -->
+                            <img class="icon-img" src="https://static.thenounproject.com/png/211171-200.png" alt="">
                         </i>
                     </div>
                     <div class="desc">
@@ -74,42 +74,29 @@
                 </div>
             </section>
             <section id="how-it-works">
-                <!-- check later -->
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/kR_RDPSFdQE" frameborder="0" allowfullscreen></iframe>
             </section>
+
+            
             <section id="pricing">
                 <div class="product" id="tenor">
-                    <div class="level">Tenor Trombone</div>
-                    <h2>$600</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
+                    <div class="level">Martin 000-15M StreetMaster</div>
+                    <h2>$1,499.00</h2>
+                    <p class="product-description">A timeless classic with a solid spruce top and mahogany back and sides, delivering warm, balanced tones for versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
 
                 <div class="product" id="bass">
-                    <div class="level">Bass Trombone</div>
-                    <h2>$900</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
+                    <div class="level">Martin D-18 Acoustic Guitar</div>
+                    <h2>$2,499.00</h2>
+                    <p class="product-description">A timeless classic with a solid spruce top and mahogany back and sides, delivering warm, balanced tones for versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
 
                 <div class="product" id="valve">
-                    <div class="level">Valve Trombone</div>
-                    <h2>$1200</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
+                    <div class="level">Martin OM-28 Modern Deluxe</div>
+                    <h2>$3,799.00</h2>
+                    <p class="product-description">A high-quality guitar with a spruce top, rosewood back, and great sound. Ideal for fingerstyle and light strumming versatile play.</p>
                     <button class="btn">Select</button>
                 </div>
             </section>
@@ -125,7 +112,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                <span>Copyright 2016, Original Trombones</span>
+                <span>Copyright, Martin & Co</span>
             </footer>
         </div>
     </div>

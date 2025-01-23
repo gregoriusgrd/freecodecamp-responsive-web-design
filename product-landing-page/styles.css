@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -61,12 +62,13 @@ header {
 
 .logo {
   width: 60vw;
+  margin-top: 10px;
 }
 
 .logo > img {
   width: 100%;
   height: 100%;
-  max-width: 300px;
+  max-width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,11 +114,13 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #A59D84;
+  border-radius: 5px;
+  font-size: 12px;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: #C1BAA1;
   transition: background-color 1s;
 }
 
@@ -131,6 +135,11 @@ nav > ul {
   height: 125px;
   width: 20vw;
   color: darkorange;
+}
+
+#features img {
+  width: 80px;
+  height: 80px;
 }
 
 #features .desc {
@@ -168,7 +177,7 @@ nav > ul {
   width: calc(100% / 3);
   margin: 10px;
   border: 1px solid #000;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .product > .level {
@@ -184,23 +193,22 @@ nav > ul {
   margin-top: 15px;
 }
 
-.product > ol {
-  margin: 15px 0;
-}
-
-.product > ol > li {
-  padding: 5px 0;
+.product > p {
+  margin: 15px 10px;
+  padding: 5px 10px;
+  text-align: left;
 }
 
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #A59D84;
   font-weight: 400;
+  border-radius: 5px;
 }
 
 .product > button:hover {
-  background-color: orange;
+  background-color: #C1BAA1;
   transition: background-color 1s;
 }
 
