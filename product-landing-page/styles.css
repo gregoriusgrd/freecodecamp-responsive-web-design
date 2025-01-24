@@ -4,7 +4,7 @@
   --main-white: #FDFDFD;
   --main-silver: #F5F5F7;
   --main-green: #CBD2A4;
-  --main-btn: #A5B68D;
+  --main-btn: #191919;
   --main-gray: #C7C8CC;
 }
 
@@ -101,7 +101,7 @@ nav > ul {
   height: 60px;
   padding: 10px 20px;
   border: 3px white solid;
-  border-radius: 5px;
+  border-radius: 8px;
   background: transparent;
   cursor: pointer;
   color: var(--main-white);
@@ -147,7 +147,7 @@ nav > ul {
   max-width: 560px;
   height: 300px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 #pricing {
@@ -156,6 +156,8 @@ nav > ul {
   flex-direction: row;
   justify-content: center;
 }
+
+/* PRICING SECTION */
 
 .product {
   display: flex;
@@ -177,7 +179,7 @@ nav > ul {
 }
 
 .product > .product-name {
-  background-color: #9A7E6F;
+  background-color: #3E3232;
   color: white;
   padding: 15px 0;
   width: 100%;
@@ -206,19 +208,23 @@ nav > ul {
   border: 0;
   margin: 15px 0;
   padding: 10px 20px;
-  background-color: var(--main-btn);
-  color: white;
+  background-color: var(--main-white);
+  color: black;
   font-weight: bold;
   font-size: 0.95rem;
-  border-radius: 20px;
+  border: 3px solid var(--main-btn);
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .product > button:hover {
-  background-color: #0056b3;
+  background-color: black;
+  color: var(--main-white);
   transform: scale(1.05);
 }
+
+/* HERO SECTION */
 
 #hero {
   display: flex;
