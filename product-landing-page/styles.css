@@ -31,18 +31,6 @@ a {
   margin: 0 auto;
 }
 
-.btn {
-  padding: 0 20px;
-  height: 40px;
-  font-size: 1em;
-  font-weight: 900;
-  text-transform: uppercase;
-  border: 3px black solid;
-  border-radius: 2px;
-  background: transparent;
-  cursor: pointer;
-}
-
 .grid {
   display: flex;
 }
@@ -83,6 +71,43 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+/* BANNER SECTION */
+#banner {
+  background-image: url("https://images4.alphacoders.com/194/194136.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-description {
+  display: flex;
+  height: 100px;
+  padding-left: 10%;
+  line-height: 2;
+  flex-direction: column;
+  text-align: left;
+  color: var(--main-white);
+  margin-bottom: 40px;
+  font-size: 1.25rem;
+}
+
+.banner-description > button {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  font-weight: 900;
+  width: 40%;
+  height: 60px;
+  padding: 10px 20px;
+  border: 3px white solid;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--main-white);
 }
 
 /* FEATURES SECTION */
