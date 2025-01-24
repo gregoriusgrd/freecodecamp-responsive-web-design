@@ -307,6 +307,10 @@ footer a:hover {
 }
 
 @media (max-width: 650px) {
+  html {
+    font-size: 70%;
+  }
+
   .logo {
     margin-top: 15px;
     width: 100%;
@@ -335,6 +339,14 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .banner-description {
+    font-size: 70%;
+  }
+
+  .banner-description > button {
+    font-size: 70%;
+  }
+
   #hero {
     margin-top: 120px;
   }
@@ -342,7 +354,15 @@ footer a:hover {
 
 @media (max-width: 800px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
+  }
+
+  .banner-description {
+    font-size: 70%;
+  }
+
+  .banner-description > button {
+    font-size: 70%;
   }
 
   #pricing {
