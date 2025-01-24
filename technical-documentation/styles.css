@@ -1,15 +1,18 @@
+/* GLOBAL */
+
 * {
     box-sizing: border-box;
-}
-
-html, body {
-    min-width: 290px;
     margin: 0;
-    color: black;
     font-family: "Roboto", sans-serif;
     line-height: 1.8;
     scroll-behavior: smooth;
 }
+
+html, body {
+    color: black;
+}
+
+/* HEADER NAV SECTION */
 
 header {
     margin: 10px 20px;
@@ -45,6 +48,8 @@ header {
     color: #333333;
     text-decoration: none;
 }
+
+/* MAIN-DOC SECTION */
 
 #main-doc {
     width: calc(100% - 270px);
@@ -84,57 +89,52 @@ code {
     font-weight: bold;
 }
 
+a:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+/* MEDIA RESPONSIVE */
+
 @media screen and (max-width: 768px) {
     #navbar {
-        width: 200px; /* Reduce navbar width */
+        width: 200px;
     }
     
     #main-doc {
-        margin-left: 210px; /* Adjust margin to match navbar width */
-        width: calc(100% - 210px); /* Dynamically adjusts width */
+        margin-left: 210px;
+        width: calc(100% - 210px);
     }
 
-    header {
-        font-size: 1.2em;
-    }
-
-    section header {
+    header, section header {
         font-size: 1.2em;
     }
 }
 
 @media screen and (max-width: 500px) {
-    #navbar {
-        width: 150px; /* Reduce navbar width */
-    }
+        #navbar {
+            width: 150px;
+        }
 
-    #main-doc {
-        margin-left: 160px; /* Adjust margin to match navbar width */
-        width: calc(100% - 160px); /* Dynamically adjusts width */
-    }
+        #navbar a {
+            font-size: 0.7em;
+        }
 
-    header {
-        font-size: 1em; /* Smaller font */
-    }
+        #main-doc {
+            margin-left: 160px;
+            width: calc(100% - 160px);
+        }
 
-    #navbar a {
-        font-size: 0.8em;
-    }
+        #main-doc li {
+            margin-left: -30px;
+        }
 
-    section header {
-        font-size: 1em;
-    }
+        section header, header {
+            font-size: 0.9em;
+        }
 
-    section p {
-        font-size: 0.7em;
-    }
-
-    section li {
-        font-size: 0.7em
-    }
-
-    code {
-        font-size: 0.7em;
-    }
+        section p, section li, code {
+            font-size: 0.6em;
+        }
 }
 
