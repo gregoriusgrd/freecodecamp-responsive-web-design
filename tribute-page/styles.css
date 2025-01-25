@@ -41,6 +41,25 @@ h1 {
     border-radius: 8px;
 }
 
+#bio {
+    font-size: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#achievement {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#achievement > h3 {
+    text-align: center;
+    margin: 50px 0;
+}
+
 #tribute-info {
     width: 50%;
     min-width: 300px;
