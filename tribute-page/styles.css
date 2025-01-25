@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-white: #FDFDFD;
+    --main-silver: #F5F5F7;
+    --main-btn: #191919;
+    --main-gray: #C7C8CC;
+}
+
 *{
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
 }
 
 body {
     margin: 0;
-    background-color: white;
+    background-color: #FAF9F6;
     color: #33333F;
+    font-family: "Mulish", sans-serif;
 }
 
 header {
@@ -14,6 +23,15 @@ header {
     text-align: center;
     background-color: white;
     padding: 1.25rem 0 6px 0;
+}
+
+h1, h3 {
+    font-family: "EB Garamond", sans-serif;
+}
+
+blockquote {
+    font-family: "Georgia", sans-serif;
+    color: #8B0000;
 }
 
 h1 {
@@ -85,6 +103,7 @@ blockquote {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .bold {
