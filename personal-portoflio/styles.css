@@ -6,7 +6,8 @@
     --main-cream: #fff0de;
     --main-gray: rgb(85, 85, 85);
     --main-dark-blue: #09122C;
-    --light-gray: #b0b0b0;
+    --medium-gray: #b0b0b0;
+    --light-gray: #c8c8c8;
 
     /* background color */
     --nav-background-color: #121212;
@@ -26,17 +27,18 @@
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
@@ -55,15 +57,6 @@ a {
     color: var(--main-white);
 }
 
-a:hover {
-    color: #09122C;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: #09122C;
-    transition: transform 0.3s ease-out;
-    transform: translateY(3px);
-}
-
 p {
     color: var(--main-gray);
 }
@@ -76,7 +69,6 @@ img {
 .title, .sub-title {
     font-weight: 700;
     text-align: center;
-    font-family: "Poppins", sans-serif;
 }
 
 .title {
@@ -108,6 +100,19 @@ nav, .nav-links {
     list-style: none;
     font-size: 2.5rem;
     margin-right: 2rem;
+}
+
+.nav-links a {
+    margin-right: 30px;
+}
+
+.nav-links a:hover {
+    transition: transform 0.3s ease-out;
+    transform: translateY(3px);
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .logo {
@@ -178,6 +183,10 @@ nav, .nav-links {
     text-align: center;
 } 
 
+.details-container > p {
+    color: var(--light-gray);
+} 
+
 .about-text-container {
     width: 70%;
     line-height: 3.3rem;
@@ -229,14 +238,17 @@ nav, .nav-links {
 
 .project-title {
     font-size: 2rem;
-    color: var(--main-cream);
+    color: var(--light-gray);
+    transition: all 0.3s ease;
 }
 
 .project-title:hover {
-    color: #09122C;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: #09122C;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* CONTACT SECTION */
@@ -278,7 +290,12 @@ nav, .nav-links {
 } 
 
 .contact-details:hover {
-    transform: translateY(8px);
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .contact-details span {
