@@ -175,7 +175,7 @@ nav, .nav-links {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 4rem;
     flex: 1;
     border-radius: 2rem;
     border:  0.2rem solid rgb(53, 53, 53);
@@ -185,6 +185,7 @@ nav, .nav-links {
 
 .details-container > p {
     color: var(--light-gray);
+    line-height: 3rem;
 } 
 
 .about-text-container {
