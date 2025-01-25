@@ -1,23 +1,51 @@
 /* GLOBAL */
 
+:root {
+    --body-color: #e0e0e0;
+    --body-background-color: #212121;
+    /* --header-color: #64b5f6; */
+    --a-color: #e0e0e0;
+    --code-color: #c5e1a5;
+}
+  
 * {
     box-sizing: border-box;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    line-height: 1.8;
+    line-height: 2;
     scroll-behavior: smooth;
     text-align: justify;
 }
 
+/* COLOR SECTION */
+
 html, body {
-    color: black;
+    color: var(--body-color);
+    background-color: var(--body-background-color);
+}
+
+/* h1, h2, h3 {
+    color: var(--header-color);
+} */
+
+a {
+    color: var(--a-color);
+}
+
+a:hover {
+    color: #ffb74d;
+    font-weight: bold;
+}
+
+code {
+    color: var(--code-color);
 }
 
 /* HEADER NAV SECTION */
 
 header {
     margin: 10px 20px;
-    color: black;
+    /* color: black; */
     text-align: center;
     font-size: 2em;
 }
@@ -28,7 +56,7 @@ header {
     left: 0;
     width: 260px;
     height: 100%;
-    background-color: #f9f9f9;
+    background-color: #181818; 
     border-right: 2px solid #aaaaaa;
     overflow-y: auto;
 }
@@ -39,14 +67,13 @@ header {
     height: 80%;
 }
 
-#navbar li {
-    border-top: 1px solid #aaaaaa;
+#navbar li:hover {
+    background-color: #212121;
 }
 
 #navbar a {
     display: block;
     padding: 15px 30px;
-    color: #333333;
     text-decoration: none;
 }
 
@@ -58,13 +85,13 @@ header {
     padding: 20px;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 section header {
     text-align: left;
     margin: 0px;
-}
-
-section article {
-    color: #4d4e53;
 }
 
 section li {
@@ -90,10 +117,15 @@ code {
     font-weight: bold;
 }
 
-a:hover {
-    color: purple;
-    font-weight: bold;
+.reference-link {
+    color: var(--header-color);
 }
+
+.reference-link:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
 
 /* MEDIA RESPONSIVE */
 
