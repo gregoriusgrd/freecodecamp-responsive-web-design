@@ -126,7 +126,7 @@ nav, .nav-links {
 
 /* WELCOME SECTION */
 
-.welcome-section {
+#welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +142,7 @@ nav, .nav-links {
 
 /* ABOUT SECTION */
 
-#about {
+#about-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,7 +252,7 @@ nav, .nav-links {
 
 /* CONTACT SECTION */
 
-#contact {
+#contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
