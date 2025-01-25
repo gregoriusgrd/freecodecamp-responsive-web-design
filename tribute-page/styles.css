@@ -1,37 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-    --main-white: #FDFDFD;
-    --main-silver: #F5F5F7;
-    --main-btn: #191919;
-    --main-gray: #C7C8CC;
-}
-
 *{
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-color: #FAF9F6;
-    color: #33333F;
+    background-color: #F5F5F5;
+    color: #666666;
     font-family: "Mulish", sans-serif;
 }
 
 header {
     margin-top: 1.25rem;
     text-align: center;
+    color: #333333;
     background-color: white;
     padding: 1.25rem 0 6px 0;
 }
 
 h1, h3 {
     font-family: "EB Garamond", sans-serif;
-}
-
-blockquote {
-    font-family: "Georgia", sans-serif;
-    color: #8B0000;
 }
 
 h1 {
@@ -102,8 +91,11 @@ li {
 blockquote {
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     line-height: 1.5;
+    font-family: "Georgia", sans-serif;
+    color: #333333;
 }
 
 .bold {
@@ -117,7 +109,10 @@ blockquote {
     text-underline-offset: 3px;
 }
 
+a {
+    color: #B86B4B;
+}
 a:hover {
     font-weight: bolder;
-    color: purple;
+    color: #685752;
 }
